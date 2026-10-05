@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Abdelhamed Nada — CV</title>
+<style>
+  :root { color-scheme: light; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "Inter", -apple-system, "Segoe UI", sans-serif;
+    background: #ecebe8;
+    color: #16161a;
+    padding: 48px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .sheet {
+    max-width: 760px;
+    margin: 0 auto;
+    background: #fbfbfa;
+    border: 1px solid #d8d5cf;
+    border-radius: 20px;
+    padding: 56px;
+  }
+  header { display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; border-bottom: 1px solid #d8d5cf; padding-bottom: 32px; }
+  h1 { font-size: 40px; font-weight: 600; letter-spacing: -0.03em; line-height: 1.05; }
+  .role { margin-top: 8px; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: #6b6862; }
+  .contact { text-align: right; font-size: 13px; line-height: 1.8; color: #6b6862; }
+  .contact a { color: inherit; text-decoration: none; }
+  .contact a:hover { text-decoration: underline; }
+  section { margin-top: 36px; }
+  h2 { font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: #6b6862; margin-bottom: 16px; font-weight: 600; }
+  .job { display: grid; grid-template-columns: 1fr auto; gap: 4px 16px; padding: 14px 0; border-top: 1px solid #e4e2dc; }
+  .job:first-of-type { border-top: 0; }
+  .job h3 { font-size: 16px; font-weight: 600; letter-spacing: -0.01em; }
+  .job .co { font-size: 14px; color: #6b6862; }
+  .job .yr { font-size: 13px; color: #6b6862; font-variant-numeric: tabular-nums; }
+  .job p { grid-column: 1 / -1; font-size: 14px; line-height: 1.65; color: #3d3b36; margin-top: 4px; }
+  .job ul { grid-column: 1 / -1; margin-top: 8px; padding-left: 18px; }
+  .job li { font-size: 14px; line-height: 1.65; color: #3d3b36; margin-top: 4px; }
+  .skill-row { display: grid; grid-template-columns: 9.5rem 1fr; gap: 12px 16px; padding: 10px 0; border-top: 1px solid #e4e2dc; font-size: 14px; line-height: 1.55; }
+  .skill-row:first-of-type { border-top: 0; }
+  .skill-row dt { font-weight: 600; color: #16161a; }
+  .skill-row dd { color: #3d3b36; }
+  ul.tags { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; }
+  ul.tags li { border: 1px solid #d8d5cf; border-radius: 999px; padding: 7px 14px; font-size: 13px; }
+  p.bio { font-size: 15px; line-height: 1.7; color: #3d3b36; max-width: 62ch; }
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+  @media print {
+    body { background: #fff; padding: 0; }
+    .sheet { border: 0; border-radius: 0; max-width: none; }
+  }
+  @media (max-width: 560px) {
+    .sheet { padding: 32px 24px; }
+    header { flex-direction: column; }
+    .contact { text-align: left; }
+    .skill-row { grid-template-columns: 1fr; gap: 4px; }
+    .split { grid-template-columns: 1fr; gap: 8px; }
+  }
+  h1, .role, .yr, .co, p.bio, .job h3 { min-height: 1.2em; }
+  .contact .line { display: block; min-height: 1.8em; }
+</style>
+</head>
+<body>
+  <div class="sheet">
+    <header>
+      <div>
+        <h1>Abdelhamed Nada</h1>
+        <div class="role">Full-Stack Developer</div>
+      </div>
+      <div class="contact">
+        <span class="line"><a href="mailto:202402972@pua.edu.eg">202402972@pua.edu.eg</a></span>
+        <span class="line"><a href="tel:+201096144345">+20 109 614 4345</a></span>
+        <span class="line">Tanta, Egypt</span>
+        <span class="line"><a href="https://github.com/202402972-stack" target="_blank" rel="noreferrer">github.com/202402972-stack</a></span>
+        <span class="line"><a href="https://www.linkedin.com/in/abdelhamed-nada-030528324" target="_blank" rel="noreferrer">linkedin.com/in/abdelhamed-nada-030528324</a></span>
+        <span class="line"><a href="https://abdelhamed-nada.vercel.app" target="_blank" rel="noreferrer">abdelhamed-nada.vercel.app</a></span>
+      </div>
+    </header>
+
+    <section>
+      <h2>Profile</h2>
+      <p class="bio">Full-stack developer with four years of experience delivering complete products from scratch: front end, back end, database, admin dashboard and deployment. Strong in Next.js, Python, Telegram bots and AI integration, with a sharp eye for clean, well-balanced interfaces.</p>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <div class="job">
+        <h3>Freelance Full-Stack Developer</h3>
+        <span class="yr">2022 — Present</span>
+        <span class="co">Independent</span>
+        <ul>
+          <li>Build complete products from scratch: front end, back end, database, admin dashboard and deployment.</li>
+          <li>Deliver bilingual (Arabic/English, RTL-first) e-commerce and white-label platforms with admin dashboards, brand customisation and Telegram order delivery.</li>
+          <li>Develop Telegram bots and SaaS tools on the GitHub API, with webhooks, scheduled jobs, encrypted credential storage, automated tests and CI.</li>
+          <li>Integrate AI into products: customer-service assistants embedded in websites and AI-powered bots.</li>
+          <li>Create cinematic, animation-rich interfaces with WebGL, Three.js and glassmorphism design systems.</li>
+          <li>Take over, audit and complete projects started by other developers.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Technical skills</h2>
+      <dl>
+        <div class="skill-row"><dt>Front end</dt><dd>Next.js 15 · React 18/19 · TanStack Start/Router · TypeScript · JavaScript · HTML/CSS · Tailwind CSS · Radix UI / shadcn · Zustand · React Hook Form · Zod</dd></div>
+        <div class="skill-row"><dt>Back end &amp; data</dt><dd>Node.js · Python · REST APIs · Webhooks · Background jobs · Session auth · Cryptography · PostgreSQL · MySQL · SQLite · Supabase · Redis</dd></div>
+        <div class="skill-row"><dt>Bots &amp; automation</dt><dd>Telegram bots (python-telegram-bot) · GitHub API (PyGithub) · Scheduled jobs · Workflow automation</dd></div>
+        <div class="skill-row"><dt>AI</dt><dd>AI customer-service assistants · Embeddable website chat · AI-powered bots · Cursor · Claude Code · ChatGPT / GPT</dd></div>
+        <div class="skill-row"><dt>Animation &amp; 3D</dt><dd>Framer Motion · CSS &amp; web animation · Lenis · Three.js · React Three Fiber · WebGL</dd></div>
+        <div class="skill-row"><dt>Design</dt><dd>Design tokens · Colour systems · Glassmorphism · Dark/light theming · Admin dashboards · RTL/LTR (next-intl)</dd></div>
+        <div class="skill-row"><dt>DevOps &amp; tools</dt><dd>Git &amp; GitHub · GitHub Actions CI · Unit testing · Docker · Railway · Vercel · Cloudflare Pages · Vite</dd></div>
+      </dl>
+    </section>
+
+    <section>
+      <h2>Expertise</h2>
+      <ul class="tags">
+        <li>Next.js</li>
+        <li>React</li>
+        <li>TypeScript</li>
+        <li>Node.js</li>
+        <li>Python</li>
+        <li>PostgreSQL</li>
+        <li>Telegram bots</li>
+        <li>AI integration</li>
+        <li>Tailwind CSS</li>
+        <li>Three.js</li>
+      </ul>
+    </section>
+
+    <section class="split">
+      <div>
+        <h2>Education</h2>
+        <div class="job">
+          <h3>Computer Science &amp; AI</h3>
+          <span class="yr"></span>
+          <span class="co">Pharos University in Alexandria (PUA)</span>
+        </div>
+        <div class="job">
+          <h3>Computer Science &amp; AI</h3>
+          <span class="yr">Present</span>
+          <span class="co">Tanta University</span>
+        </div>
+      </div>
+      <div>
+        <h2>Languages</h2>
+        <div class="job">
+          <h3>Arabic</h3>
+          <span class="yr"></span>
+          <span class="co">Native</span>
+        </div>
+        <div class="job">
+          <h3>English</h3>
+          <span class="yr"></span>
+          <span class="co">Professional working proficiency</span>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
